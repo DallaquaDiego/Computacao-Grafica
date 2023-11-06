@@ -16,7 +16,9 @@ void desenhaObjetos(void)
 
         glPushMatrix();                        //insere a matriz de transformação corrente na pilha
             glScalef(2, 0.5, 0.5);             //escalona nosso cubo para ele virar um paralelepípedo
-            glutSolidCube(1);                  //cria uma forma 3d sólida
+             glColor3f( 1, 0.27, 0 );
+            glutSolidSphere( 30, 40, 40 );
+
         glPopMatrix();                         //retira a matriz do topo da pilha e torna esta última a matriz de transformação corrente
 
         glTranslatef(1,0,0);                   //translada o objeto no eixo x
@@ -25,7 +27,8 @@ void desenhaObjetos(void)
 
         glPushMatrix();                        //insere a matriz de transformação corrente na pilha
             glScalef(2, 0.5, 0.5);             //escalona nosso cubo para ele virar um paralelepípedo
-            glutSolidCube(1);                  //cria uma forma 3d sólida
+            glColor3f( 0.86, 0.86, 0.86 );
+            glutSolidSphere( 10, 20, 20 );
         glPopMatrix();                         //retira a matriz do topo da pilha e torna esta última a matriz de transformação corrente
 
      glPopMatrix();                            //retira a matriz do topo da pilha e torna esta última a matriz de transformação corrente
@@ -94,3 +97,5 @@ int main(void)
      glutMainLoop();                                //loop infinito - escuta as informações do sistema até encerrar a aplicação
      return 0;                                      //retorna zero
 }
+
+

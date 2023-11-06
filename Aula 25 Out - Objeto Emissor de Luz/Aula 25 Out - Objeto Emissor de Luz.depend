@@ -1,6 +1,7 @@
 # depslib dependency file v1.0
-1698235969 source:c:\users\dldal\onedrive\desktop\files\faculdade\utfpr-sh\ciência da computação\computação grafica\aula 25 out - hierarquia de modelos\main.cpp
-	<gl/glut.h>
+1699259059 source:c:\users\diego dallaqua\onedrive\documentos\github\computacao-grafica\aula 25 out - objeto emissor de luz\main.cpp
+	<GL/glut.h>
+	<stdio.h>
 
 881818880 c:\program files (x86)\codeblocks\mingw\include\gl\glut.h
 	<windows.h>
@@ -217,6 +218,13 @@
 	<stddef.h>
 	<GL/gl.h>
 
-1699259059 source:c:\users\diego dallaqua\onedrive\documentos\github\computacao-grafica\aula 25 out - hierarquia de modelos\main.cpp
-	<gl/glut.h>
+1341006776 c:\program files (x86)\codeblocks\mingw\include\stdio.h
+	<_mingw.h>
+	<stddef.h>
+	<stdarg.h>
+	<sys/types.h>
+
+1341006780 c:\program files (x86)\codeblocks\mingw\include\sys\types.h
+	<_mingw.h>
+	<stddef.h>
 

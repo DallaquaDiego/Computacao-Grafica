@@ -5,7 +5,7 @@ GLfloat aspecto, angulo, rotacao;
 objetos3D(){
 
     glColor3f( 0, 1, 1 );
-    glutSolidTeapot( 40 );
+    glutSolidSphere( 40 );
 
     glColor3f( 0, 0, 0 );
     glutWireTeapot( 40 );
@@ -13,6 +13,7 @@ objetos3D(){
 }
 
 void desenhaObjetos(void){
+
     glClear(GL_COLOR_BUFFER_BIT);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();

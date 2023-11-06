@@ -78,7 +78,7 @@ int main(void)
      glutDisplayFunc(desenhaObjetos);
      glutSpecialFunc(teclasDirecionais);
      glutReshapeFunc(AlteraTamanhoJanela);
-     inicializaLuzes();
+
      glClearColor(0,0,0,1);
      angulo = 45;
      glutMainLoop();
