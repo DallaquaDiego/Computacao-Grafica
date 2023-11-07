@@ -73,7 +73,7 @@ void teclasDirecionais(GLint tecla, GLint x, GLint y){
     switch(tecla){
         case GLUT_KEY_LEFT:
             if(selected == 1) rotA = ((int) rotA + 5) % 360;          //permite rotacionar a esquerda em 360º nossos dois objetos
-                if(selected == 2) rotB = ((int) rotB + 5) % 360;      //permite rotacionar a esquerda em 360º nosso objeto 2
+            if(selected == 2) rotB = ((int) rotB + 5) % 360;      //permite rotacionar a esquerda em 360º nosso objeto 2
         break;
         case GLUT_KEY_RIGHT:
             if(selected == 1) rotA = ((int) rotA - 5) % 360;          //permite rotacionar a direita em 360º nossos dois objetos
